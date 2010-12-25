@@ -1,0 +1,72 @@
+* Tasks
+** DONE Start new task list
+** TODO Set up license
+** TODO Stop thinking about the API...hack one together
+** TODO Outline Documentation
+** TODO Document, document, document!!!
+** TODO Qi?? (profile!)
+** TODO Basic apps
+What are the bare-bones basics I really need to implement to create
+something useful?
+*** TODO editor (?? Seems like this is actually part of the IDE)
+*** TODO System browser (ditto)
+*** TODO System customizations (background, window decorations, themes, etc)
+*** TODO McCLIM backend
+*** TODO Cave explorer?
+*** TODO Model viewer
+** TODO Multiple users
+** TODO Sandbox
+** TODO Privilege escalation
+** TODO Handling runaway tasks
+
+* Introduction
+
+** Why?
+
+I need a GUI for my IDE. McCLIM is *almost* it, but the GPL sort of kills it.
+I want to encourage everyone else to create free software, but I also want 
+Frereth to go viral. Which means it pretty much has to worm its way into the
+enterprise. Sure, that's technically *possible* with the GPL, but it makes
+life much more difficult all around.
+
+Plus I want to encourage projects like the participants in the Humble Indie
+Bundle to use it. After they've gotten rich from proprietary projects, they
+can switch to Open Source licenses.
+
+None of the other GUI projects really seem very suitable as a starting point.
+
+** What?
+
+This is a fairly low-level library based on lispbuilder. I intend it to be 
+suitable as a backend for McCLIM.
+
+I intend to add other, more advanced widgets later. Those probably belong in
+a separate library, though. Probably something similar to the way the dojo
+toolkit's broken up. The low-level core, suitable for the McCLIM backend and
+usable for creating "low-level" (for some definition of "low") windows. Useful
+widgets that can be added in as needed. And then experimental widgets that
+might also become "official" in [hypothetical] future releases.
+
+* Documentation
+
+** Overview
+
+** Tutorial
+
+Write a minesweeper clone (or some such)
+
+** Reference
+
+* Advanced Stuff
+
+I have several TODO entries after my list of sample apps that would, really,
+be important pieces for a Lisp OS. They probably don't really belong here.
+
+Even though they're really low-level stuff (and some of them should probably
+be something like kernel modules instead, like privilege escalation), they
+don't particularly belong in here. Separation of concerns, and such.
+
+I don't expect that anyone will ever actually use this *without* those
+pieces, but other people have a habit of surprising me and coming up with
+ways to use things that never would have occurred to me. (And, I hope,
+vice versa).
