@@ -14,7 +14,7 @@ something useful?
 *** TODO System customizations (background, window decorations, themes, etc)
 *** TODO McCLIM backend
 *** TODO Cave explorer?
-*** TODO Model viewer
+*** TODO Model viewer?
 ** TODO Multiple users
 ** TODO Sandbox
 ** TODO Privilege escalation
