@@ -1,7 +1,19 @@
 * Tasks
 ** DONE Start new task list
-** TODO gitflow
-** TODO Set up license
+** DONE gitflow
+** DONE Set up license
+This is a really tough question for me. To copyleft or not?
+
+The Lisp community really doesn't seem to like the GPL very much. In
+fact, working around McCLIM's GPL is one of the prime reasons I'm starting
+this project now instead of just making it part of McCLIM. So I can use it
+as a McCLIM back-end and, in parallel, use it as the basis for Frereth.
+
+Which I'm also torn about.
+
+If it starts out GPL, it's easier to loosen restrictions later than vice
+versa. Looks like quicklisp uses the X11 license. Run with that.
+
 ** TODO Stop thinking about the API...hack one together
 ** TODO Outline Documentation
 ** TODO Document, document, document!!!
