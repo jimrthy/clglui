@@ -1,0 +1,17 @@
+CLGLUI
+======
+
+My original plan is to build a minimalist Common Lisp GUI library over
+some 3d engine. Right now, I'm wavering between raw OpenGL and a full-
+fledged game engine, probably from the C world.
+
+Like everything else in life, both approaches have their tradeoffs.
+
+Right now I'm leaning toward rolling my own over the lowest-level layer
+I can get my hands on. Right now, like frereth (which will most likely
+be built on top of this...or maybe atop a more full-featured widget set
+that sits in between), this is pretty much complete and total vaporware.
+
+I'm really just getting a feel for the various tools that I think I'll
+most likely be using. Making the project public just means it's more
+likely I'll actually do something with it.
